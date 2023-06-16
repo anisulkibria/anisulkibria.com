@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function About() {
   return (
     <>
-      <div className="relative flex place-items-center max-w-3xl p-8">
+      <div className="relative flex place-items-center max-w-3xl xl:p-8">
           <div className="main-content">
             <h1 className='text-4xl leading-normal mb-4'>Md Anisul Kibria | The Next.JS Developer</h1>
 
