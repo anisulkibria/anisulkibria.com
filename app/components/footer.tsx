@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function Nav() {
+export default function Footer() {
   return (
     <>
         <div className="mb-32 mt-12 grid text-center lg:mb-0 lg:grid-cols-5 lg:text-left">
