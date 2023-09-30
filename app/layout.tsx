@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Head from './components/Head';
+import Foot from './components/Foot';
 
 import './css/bootstrap.min.css';
 import './css/font-awesome.min.css';
@@ -28,9 +28,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main>
-        <Header />
+        <Head />
         {children}
-        <Footer />
+        <Foot />
         </main>
       </body>
     </html>

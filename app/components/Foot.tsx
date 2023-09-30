@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Foot = () => {
   return (
     <footer className="default-padding-top bg-light">
         <div className="footer-bottom">
@@ -44,4 +44,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Foot

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Header = () => {
+const Head = () => {
   return (
     <header id="home">
         <nav className="navbar navbar-default attr-border navbar-sticky bootsnav">
@@ -51,4 +51,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Head
