@@ -1,7 +1,5 @@
-"use client";
 import React from 'react'
 import Image from 'next/image'
-import Carousel from 'react-elastic-carousel'
 
 const Testimonials = () => {
   return (
@@ -19,7 +17,6 @@ const Testimonials = () => {
                 <div className="col-md-8 col-md-offset-2">
                     <div className="row">
                         <div className="testimonial-items owl-carousel owl-theme">
-                            <Carousel>
                             <div className="testimonial-item">
                                 <div className="thumb col-md-4">
                                     <Image width={200} height={200} src="/img/marlon.jpeg" alt="Thumb" />
@@ -62,7 +59,6 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </div>
-                            </Carousel>
                         </div>
                     </div>
                 </div>
