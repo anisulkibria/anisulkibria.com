@@ -4039,6 +4039,11 @@ footer.color-yellow .footer-bottom p a {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .nav>li>a {
+    padding: 20px 13px;
+  }
+}
 
 .logo-display {
   height: 36px; 
@@ -4051,33 +4056,71 @@ footer.color-yellow .footer-bottom p a {
     line-height: 5.5rem; 
     color:#fff;
 }
+
 .banner-area.text-small .content p {
   color:#fff
 }
+
 .info .content a {
   color:#fff;
   border-color:#fff
 }
+
 .banner-area {
+  background-color: #001025;
   background-image: url(/img/hero.jpg);
+  height: calc(100vh - 83px);
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1023px) {
+  .banner-area.content-double .double-items {
+    display: block;
+  }
+  .banner-area.content-double .content.inc-video {
+    padding-bottom: 50px;
+  }
+}
+
+.team-area .item .thumb img {
+  height: auto;
+}
+
+.about-area img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
 .our-offer-carousel {
-  display: flex;
+  display: grid;
   gap: 3rem;
 }
 
-.our-offer-carousel .item {
-  flex: 1 1 0px;
+.testimonial-items {
+  display: grid;
+  gap: 3rem;
+}
+
+.testimonial-item img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (min-width:991px) {
+  .our-offer-carousel {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .our-offer-carousel .item {
+    flex: 1 1 0px;
+  }
 }
 
 .testimonials-area .testimonial-item .info p {
   color: #666666;
-}
-
-.banner-area {
-  height: calc(100vh - 83px);
-  box-sizing: border-box;
 }
 
 html {
@@ -4087,5 +4130,25 @@ html {
 @media (min-width: 1024px) {
   nav.navbar.bootsnav .navbar-brand {
     padding: 30px 15px;
+  }
 }
+
+.footer-bottom .link {
+  text-align: center;
+}
+
+.footer-bottom p {
+  text-align: left;
+}
+
+@media (max-width:1199px) {
+  .footer-bottom p {
+    text-align: center;
+  }
+}
+
+@media (min-width:1200px) {
+  .footer-bottom .link {
+    text-align: right;
+  }
 }

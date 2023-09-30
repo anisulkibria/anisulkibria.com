@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { Playfair_Display } from 'next/font/google'
+const playfair = Playfair_Display({ subsets: ['latin'] })
 
 const Faq = () => {
   return (
@@ -8,7 +10,7 @@ const Faq = () => {
             <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                     <div className="site-heading text-center">
-                        <h2>Qustion and <span>Answer</span></h2>
+                        <h2 className='{playfair.className}'>Qustion and <span>Answer</span></h2>
                         <h4>Most common and important answer</h4>
                     </div>
                 </div>

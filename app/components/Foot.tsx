@@ -7,10 +7,10 @@ const Foot = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <p>&copy; Copyright 2023. All Rights Reserved by <a href="https://anisul.com">Anisul Kibria</a></p>
                         </div>
-                        <div className="col-md-3 text-right link">
+                        <div className="col-lg-3 link">
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/anisulkibria/"><i className="fab fa-facebook"></i></a>
@@ -23,7 +23,7 @@ const Foot = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-3 text-right link">
+                        <div className="col-lg-3 link">
                             <ul>
                                 <li>
                                     <a href="#">Terms</a>

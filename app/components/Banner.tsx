@@ -1,4 +1,6 @@
 import React from 'react'
+import { Playfair_Display } from 'next/font/google'
+const playfair = Playfair_Display({ subsets: ['latin'] })
 
 const Banner = () => {
   return (
@@ -10,7 +12,7 @@ const Banner = () => {
                         <div className="double-items">
                             <div className="info col-md-6">
                                 <div className="content inc-video">
-                                    <h1>This is Anisul Kibria : JavaScript, Next.js, Node.js Full-stack Developer</h1>
+                                    <h1 className='{playfair.className}'>This is Anisul Kibria : JavaScript, Next.js, Node.js Full-stack Developer</h1>
                                     <p>
                                         👋, Do you want to develop your website? As a next.js expert, I will help you to develop your web application.
                                     </p>
@@ -19,7 +21,7 @@ const Banner = () => {
                             </div>
                             <div className="form col-md-5 text-light col-md-offset-1">
                                 <div className="form-info">
-                                    <h2><span>FREE</span> Quote.</h2>
+                                    <h2 className='{playfair.className}'><span>FREE</span> Quote.</h2>
                                     <form action="https://formspree.io/f/mjvqpkke" method="POST">
                                         <div className="col-md-12">
                                             <div className="row">

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Playfair_Display } from 'next/font/google'
+const playfair = Playfair_Display({ subsets: ['latin'] })
 
 const Services = () => {
   return (
@@ -7,7 +9,7 @@ const Services = () => {
             <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                     <div className="site-heading text-center">
-                        <h2>What I <span>Offer</span></h2>
+                        <h2 className='{playfair.className}'>What I <span>Offer</span></h2>
                         <h4>Services to help you</h4>
                     </div>
                 </div>

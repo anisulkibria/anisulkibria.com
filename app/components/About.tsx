@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { Playfair_Display } from 'next/font/google'
+const playfair = Playfair_Display({ subsets: ['latin'] })
 
 const About = () => {
   return (
@@ -10,7 +12,7 @@ const About = () => {
                     <Image width={450} height={450} src="/img/anisul.jpg" alt="Thumb" />
                 </div>
                 <div className="col-md-7 default info">
-                    <h4>Why Chose Me</h4>
+                    <h4 className='{playfair.className}'>Why Chose Me</h4>
                     <h2>My Commitment to Excellence <br/>as expert developer</h2>
                     <p>
                         Discover the Reasons to Collaborate with a Full-Stack Web Developer Proficient in React, Next.js, Node.js, MongoDB, and AWS

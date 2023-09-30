@@ -11,14 +11,11 @@ const Head = () => {
                         <i className="fa fa-bars"></i>
                     </button>
                     <a className="navbar-brand" href="/">
-                        <Image width={150} height={25} src="/img/logo.png" className="logo logo-display" alt="Logo" />
+                        <Image width={130} height={20} src="/img/logo.png" className="logo logo-display" alt="Logo" />
                     </a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar-menu">
                     <ul className="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                        <li className="dropdown dropdown-right">
-                            <a href="#home" className="smooth-menu">Home</a>
-                        </li>
                         <li>
                             <a className="smooth-menu" href="#about">About</a>
                         </li>

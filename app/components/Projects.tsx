@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { Playfair_Display } from 'next/font/google'
+const playfair = Playfair_Display({ subsets: ['latin'] })
 
 const Projects = () => {
   return (
@@ -8,7 +10,7 @@ const Projects = () => {
             <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                     <div className="site-heading text-center">
-                        <h2>Recent <span>Projects</span></h2>
+                        <h2 className='{playfair.className}'>Recent <span>Projects</span></h2>
                         <h4>Explore my recent projects</h4>
                     </div>
                 </div>
