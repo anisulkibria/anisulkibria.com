@@ -81,7 +81,7 @@ const Faq = () => {
                                 <div id="ac4" className="panel-collapse collapse">
                                     <div className="panel-body">
                                         <p>
-                                            I provide ongoing support and maintenance services to ensure your website or web application continues to run smoothly and stays up-to-date with the latest technologies and security patches. Whether it's fixing bugs, making updates, or scaling the application, I'm here to support your digital presence long-term.
+                                            I provide ongoing support and maintenance services to ensure your website or web application continues to run smoothly and stays up-to-date with the latest technologies and security patches. Whether its fixing bugs, making updates, or scaling the application, Im here to support your digital presence long-term.
                                         </p>
                                     </div>
                                 </div>
