@@ -1,3 +1,6 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 import './css/bootstrap.min.css';
 import './css/font-awesome.min.css';
 import './css/flaticon-set.css';
@@ -6,9 +9,6 @@ import './css/animate.css';
 import './css/bootsnav.css';
 import './globals.css'
 import './css/responsive.css';
-
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 import { Inter } from 'next/font/google'
 

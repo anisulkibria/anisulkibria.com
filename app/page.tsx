@@ -1,7 +1,3 @@
-
-import Image from "next/image"
-import Carousel from 'react-elastic-carousel';
-
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Services from "./components/Services";
